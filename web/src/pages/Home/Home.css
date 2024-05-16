@@ -1,0 +1,91 @@
+#home {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+#home .list {
+  padding: 3rem 3rem;
+}
+#home .listHeader  {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: .6rem;
+}
+#home .listHeader .info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: .6rem;
+}
+#home .listHeader span {
+  padding: .1rem .4rem;
+  border-radius: 100px;
+  background-color: var(--blue-900);
+  color: var(--gray-100);
+}
+#home .listHeader .options {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+}
+#home .listHeader .options .city form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: .6rem;
+}
+#home .listHeader .options .city form input{
+  background-color: var(--gray-300);
+  border: 1px solid var(--blue-900);
+  font-weight: 500;
+
+  padding: .3rem;
+  border-radius: 4px;
+}
+#home .listHeader .options .city button {
+  padding: .3rem; 
+  background-color: var(--blue-900);
+  color: var(--gray-100);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  border-radius: 3px;
+}
+#home .listHeader .options .tag form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: .6rem;
+}
+#home .listHeader .options .tag form  select{
+  background-color: var(--gray-300);
+  border: 1px solid var(--blue-900);
+  font-weight: 500;
+  padding: .4rem;
+  font-size: .9rem;
+  
+  border-radius: 4px;
+}
+#home .listHeader .options .tag form  select option{
+  font-weight: 500;
+  font-size: 1rem;
+}
+#home .listHeader .options .tag button {
+  padding: .3rem; 
+  background-color: var(--blue-900);
+  color: var(--gray-100);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  border-radius: 3px;
+}
+#home .listCards  {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1.5rem;
+}

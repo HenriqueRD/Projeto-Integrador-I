@@ -1,0 +1,26 @@
+#about {
+  background-color: var(--gray-100);
+}
+#about > h2 {
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+#about .banner {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .banner > img{
+  border-radius: 12px;
+}
+#about .content {
+  padding: 3rem;
+}
+#about .content > p{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+}
